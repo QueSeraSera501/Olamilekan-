@@ -1,0 +1,87 @@
+*{
+    border: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/cover.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    margin-left: 20px;
+}
+.Navs{
+    margin-right: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.Navs>a{
+    margin-right: 20px;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+.Navs > a {
+    text-decoration: none;
+    color: white;
+}
+.Btn{
+    height: 30px;
+    width: 90%;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.Btn1{
+    padding: 10px;
+    margin-right: 10px;
+}
+.Btn2{
+    padding: 10px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+p{
+    line-height: 50px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    height: 50px;
+}
+.create{
+    font-style: italic;
+    font-size: 15px;
+}
+.Bold{
+    font-size: 40px;
+    font-weight: bold;
+}
+.Face{
+    font-size: 40px;
+    font-weight: bold;
+}
